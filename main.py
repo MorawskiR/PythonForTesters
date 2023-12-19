@@ -15,3 +15,7 @@ if a>5: # Zwróć uwagę na dwukropek po instrukcji warunkowej
     print ("Zmienna a jest większa od 5!")
 else:
     print ("Zmienna a jest mniejsza lub równa 5!")
+
+bardzodlugaLista = ['How', 'much', 'wood', 'would', 'a', \
+            'woodchuck', 'chuck', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood?']
+#Długie linijki kodu możesz rozbić na kilka linii, używając symbolu kontynuacji \,
