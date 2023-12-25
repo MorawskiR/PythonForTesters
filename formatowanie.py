@@ -15,4 +15,3 @@ print(f"Różnica w cenie to: {roznica:.0%}") # Zamiana ułamka na procenty
 print(f"Liczba w systemie dziesiętnym: {x_dec}, ta sama liczba \
 binarnie:{x_dec:b} oraz heksadecymalnie: {x_dec:X}")
 
-
