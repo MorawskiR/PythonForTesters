@@ -42,17 +42,3 @@ class Pomiar(object):
         def komunikat(self):
             print("Cześć, jestem obiektem klasy Pomiar!")
 
-p1=Pomiar("Tester1", 220.1)
-print(f"Obiekt 'p1' to [{p1}]")
-print("Licznik obiektów:", Pomiar.Licznik)
-p2=Pomiar("Tester2", 200)
-print(f"Obiekt 'p2' to [{p2}]")
-print("Licznik obiektów:", Pomiar.Licznik)
-p3=Pomiar("Tester1", -221)
-print(f"Obiekt 'p3' to [{p3}]")
-print("Licznik obiektów:", Pomiar.Licznik) # Dostęp do atrybutu (*)
-# print(f"Obiekt 'p3' utworzył {p3.autor}, data: {p3.dataczas}") # exception works
-# print("Modyfikujemy p3 - wartość zmieniona na -230:")
-# p3.odczyt=-230 # Wywoła kod funkcji ‘setter’ (**)
-# print(f"Obiekt 'p3' to teraz [{p3}]")
-# p3.komunikat()
