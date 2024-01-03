@@ -18,4 +18,4 @@ while opcja != "q":
         print("Wybrano: '3 - Przerwa na kawę ")
     else: # Błędna opcja
         print(f"Niepoprawna opcja {opcja}, spróbuj ponownie!")
-input("\n\nNaciśnij klawisz Enter") # Opóźnienie wyjścia z programu
+input("\n\nNaciśnij klawisz Enter") # Opóźnienie wyjścia z programux
