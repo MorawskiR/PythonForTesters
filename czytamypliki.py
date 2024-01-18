@@ -23,3 +23,21 @@ print("Linia 3.:", plik.readline())
 # Wiersz 4. nie istnieje i ta instrukcja nic nie zwróci:
 print("Linia 4.(tu nic nie ma, bo nie ma takiej linii):", plik.readline())
 plik.close()
+
+
+print("*** Konwersja zawartości pliku do listy zawierającej odczytane wiersze ***")
+plik = open(nazwapliku, "r")
+wiersze = plik.readlines()
+print("Lista zawierająca wiersze odczytane z pliku:", wiersze)
+print("Odczytamy wiersze zapisane na liście:")
+for biezacyWiersz in wiersze: # Sprawdźmy wynik konwersji pliku na listę
+    print(biezacyWiersz, end="")
+plik.close()
+
+print("\n*** Iteracyjne odczytywanie wierszy ***")
+i =0
+plik = open(nazwapliku, "r")
+for biezacyWiersz in plik:
+    i=i+1
+print("Linia nr: ", i, ":", biezacyWiersz, end="")
+plik.close()
