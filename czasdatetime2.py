@@ -1,0 +1,20 @@
+import datetime
+teraz = datetime.datetime.now()
+print(f" Data -> Dzień: {teraz.day}, miesiąc: {teraz.month}, rok: {teraz.year}")
+print(f" Czas -> Godzina: {teraz.hour}, minuta: {teraz.minute}, sekunda: {teraz.second}")
+print("Modyfikacja składowych (miesiąc ustawiamy na 10, czyli październik")
+teraz=teraz.replace(month=10) # Maszyna czasu w akcji! (*)
+print("Obiekt po modyfikacji")
+print(f" Data -> Dzień: {teraz.day}, miesiąc: {teraz.month}, rok: {teraz.year}")
+print("Operacje arytmetyczne na obiektach 'datetime':")
+d1=datetime.datetime(2021,5,1,0,0,0) # Określony moment w czasie (1 maja 2021 r.)
+import datetime
+teraz = datetime.datetime.now()
+print(f" Data -> Dzień: {teraz.day}, miesiąc: {teraz.month}, rok: {teraz.year}")
+print(f" Czas -> Godzina: {teraz.hour}, minuta: {teraz.minute}, sekunda:{teraz.second}")
+print("Modyfikacja składowych (miesiąc ustawiamy na 10, czyli październik")
+teraz=teraz.replace(month=10) # Maszyna czasu w akcji! (*)
+print("Obiekt po modyfikacji")
+print(f" Data -> Dzień: {teraz.day}, miesiąc: {teraz.month}, rok: {teraz.year}")
+print("Operacje arytmetyczne na obiektach 'datetime':")
+d1=datetime.datetime(2021,5,1,0,0,0) # Określony moment w czasie (1 maja 20
